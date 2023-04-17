@@ -70,8 +70,8 @@ def build_phylogenetic_tree(alignment):
     tree = constructor.upgma(distance_matrix)
     return tree
 
-# Set page title
-st.set_page_config(page_title="FASTA File Upload")
+# # Set page title
+# st.set_page_config(page_title="FASTA File Upload")
 
 # Create upload button
 uploaded_file = st.file_uploader(
