@@ -1,4 +1,6 @@
 import streamlit as st
+from Bio.Align import MultipleSeqAlignment
+from Bio.Align import AlignInfo
 from Bio.SeqRecord import SeqRecord
 from Bio.Seq import Seq
 from Bio import pairwise2
@@ -7,8 +9,12 @@ from Bio import AlignIO
 from Bio.Phylo.TreeConstruction import DistanceCalculator
 from Bio.Phylo.TreeConstruction import DistanceTreeConstructor
 from Bio import Phylo
-from Bio.Align import MultipleSeqAlignment
-from Bio.Align import AlignInfo
+import matplotlib
+
+
+matplotlib.use('TkAgg')
+
+
 
 def read_fasta(file):
     # Read the contents of the file
