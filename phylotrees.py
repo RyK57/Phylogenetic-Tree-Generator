@@ -14,8 +14,6 @@ import matplotlib
 
 matplotlib.use('TkAgg')
 
-[theme]
-
 # Primary accent for interactive elements
 primaryColor = '#7792E3'
 
