@@ -115,7 +115,8 @@ if uploaded_file is not None:
         st.write("")
 
         # Align the sequence with the consensus sequence
-        pairwise_alignments = align_sequences([seq_record, SeqRecord(Seq(consensus), id="Consensus")])
+        pairwise_alignments = align_sequences([seq_record, SeqRecord(Seq(str(consensus)), id="Consensus")])
+
 
         # Print pairwise alignment for each pair of sequences
         for a in pairwise_alignments:
