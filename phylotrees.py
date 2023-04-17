@@ -12,7 +12,7 @@ from Bio import Phylo
 import matplotlib
 
 
-matplotlib.use('Agg')
+matplotlib.use('TkAgg')
 
 # Primary accent for interactive elements
 primaryColor = '#7792E3'
