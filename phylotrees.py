@@ -96,7 +96,7 @@ uploaded_file = st.file_uploader(
 file_url = 'https://drive.google.com/file/d/1vwHW4NcsU6tfJPbKVr1CGiZLtz5NpgtY/view?usp=sharing'
 
 # link to download the example sequence file
-st.markdown(f'<a href="https://drive.google.com/file/d/1vwHW4NcsU6tfJPbKVr1CGiZLtz5NpgtY/view?usp=sharing" download>Example Input file (M19961 Accession Number NCBI)</a>', unsafe_allow_html=True)
+st.markdown(f'<a href="https://drive.google.com/file/d/1coCSpNrDI599WICcsCj5cs6C8U9Hb46g/view?usp=sharing" download>Example Input file (M19961 Accession Number NCBI)</a>', unsafe_allow_html=True)
 
 # If file is uploaded, reading and displaying alignment
 if uploaded_file is not None:
