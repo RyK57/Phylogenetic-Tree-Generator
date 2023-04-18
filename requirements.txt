@@ -1,3 +1,4 @@
 streamlit==0.68.1
 biopython==1.76
 matplotlib==3.7.1
+libgtk2.0-dev
