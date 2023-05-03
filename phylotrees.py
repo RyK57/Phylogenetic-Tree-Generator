@@ -98,6 +98,8 @@ file_url = 'https://drive.google.com/file/d/1vwHW4NcsU6tfJPbKVr1CGiZLtz5NpgtY/vi
 # link to download the example sequence file
 st.markdown(f'<a href="https://drive.google.com/file/d/1coCSpNrDI599WICcsCj5cs6C8U9Hb46g/view?usp=sharing" download>Example Input file (Carpodacus Mexicanus)</a>', unsafe_allow_html=True)
 
+ st.title("Genome Annotation and Data Visualization")
+
 # If file is uploaded, reading and displaying alignment
 if uploaded_file is not None:
     alignment = read_fasta(uploaded_file)
